@@ -1,0 +1,511 @@
+*{
+    padding: 0px  ;
+    margin: 0px  ;
+}
+
+body{
+    text-decoration: none ;
+    font-size: 14px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 14px ;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none ;
+}
+a:hover{
+    text-decoration: none ;
+}
+
+/* global css code start */
+.container{
+    width: 1140px ;
+    margin: 0px auto ;
+
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-6{
+    width: 50% ;
+    float: left ;
+}
+.col-12{
+    width: 100% ;
+    float: left;
+}
+.col-4{
+    width: 33.33% ;
+    float: left ;
+}
+/* global css code end */
+
+.header{
+    width: 100% ;
+    float: left ;
+    padding: 10px 0px  ;
+    border-bottom: 1px solid #eee ;
+}
+.header .navbar{
+    display: block ;
+    width: 100% ;
+    text-align: right ;
+
+}
+.header .navbar li{
+    list-style: none ;
+    display: inline-block ;
+}
+.header .navbar li a{
+    display: block ;
+    font-size: 14px ;
+    font-weight: 600 ;
+    text-transform: capitalize ;
+    color:#45577C ;
+    margin: 10px 0px 0px 25px ;
+    transition: 1s ;
+}
+.header .navbar li a:hover{
+    color:#008AFF ;
+}
+.header .navbar li a:focus{
+    color:#008AFF ;
+}
+.banner{
+    width: 100% ;
+    float: left;
+    text-align: center ;
+    padding: 80px 0px ;
+}
+.banner h1{
+    font-size: 60px ;
+    line-height: 1.3em ;
+    font-weight: 700;
+    color: #45577C;
+    margin: 0px 0px 10px ;
+}
+.banner h1 span{
+    color: #008AFF;
+}
+.banner p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    color: #45577C;
+    margin: 0px 0px 10px ;
+}
+.banner .banner-img{
+    width: 70% ;
+    margin:10px 0px 0px ;
+}
+.success{
+    width: 100%;
+    float: left;
+    padding: 40px 0px ;
+}
+.success .left-success{
+    width: 100% ;
+    float: left ;
+    text-align: right ;
+}
+.success .left-success h1{
+    font-size: 60px ;
+    line-height: 1.3em ;
+    font-weight: 700;
+    margin: 0px 15px 10px 0px ;
+    color: #F15C6B;
+}
+.success .left-success p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    color: #45577C;
+    margin: 0px 15px 10px 0px ;
+}
+.success .right-success h1{
+    font-size: 60px ;
+    line-height: 1.2em ;
+    font-weight: 700;
+    color: #45577C;
+    margin: 0px 0px 0px 15px ;
+}
+.success .right-success{
+    width: 100% ;
+    float: left ;
+}
+.feature{
+    width: 100% ;
+    float: left;
+    padding: 60px 0px 80px ;
+}
+.inner-feature{
+    width: 75% ;
+    float: left ;
+    padding: 50px 35px  ;
+    background-color: #eee ;
+    margin: 0px 15px ;
+}
+.inner-feature img{
+    width: 100% ;
+    height: 223px ;
+}
+.inner-feature h4{
+    font-size: 20px  ;
+    line-height: 1.2em ;
+    margin: 10px 0px  ;
+    font-weight: 700 ;
+    color: #45577C;
+}
+.inner-feature p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    color: #45577C;
+}
+
+.bg-1{
+    background: #FDEBED ;
+}
+.bg-2{
+    background:#EBF9F4 ;
+}
+.bg-3{
+    background:#FFF7E8 ;
+}
+
+/* landing page css code start */
+    .landing-section{
+        width: 100%;
+        float: left ;
+        padding: 80px 0px ;
+    }
+    .landing-section h1{
+        font-size: 42px  ;
+        line-height: 1.3em ;
+        font-weight: 600 ;
+        color: #000;
+        margin: 0px 0px 10px ;
+    }
+    .landing-section p{
+        font-size: 14px  ;
+        line-height: 1.7em ;
+        margin: 0px 0px 10px ;
+       
+    }
+/* landing page css code end  */
+
+.footer{
+    width: 100% ;
+    float: left ;
+    padding: 25px 0px ;
+    background: #008AFF;
+}
+.footer p{
+    font-size: 14px ;
+    line-height: 1.7em ;
+    color:#f0f0f0 ;
+    text-align: center ;
+}
+.footer p span{
+    color: #fff;
+}
+
+
+
+/* 
+    #screen resulation :320px to 480px 
+    #devices: most of the smart phone
+*/
+@media (min-width: 279px) and (max-width: 319px){
+/* css start */
+    .container{
+        width: 95% ;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100% ;
+        float: left ;
+    }
+    .col-12{
+        width: 100% ;
+        float: left;
+    }
+    .col-4{
+        width: 100% ;
+        float: left ;
+    }
+    .header .logo{
+        width: 100% ;
+        text-align: center ;
+        display: block ;
+    }
+    .header .navbar{
+        text-align: left ;
+    }
+    .header .navbar li a{
+        font-size: 10px ;
+        margin: 10px 0px 0px 12px ;
+    }
+    .banner{
+        padding:30px 0px ;
+    }
+    .banner h1{
+        font-size: 21px ;
+    }
+    .banner p{
+        font-size: 10px  ;
+    }
+    .success{
+        padding: 30px 0px  ;
+    }
+    .success .left-success{
+        text-align: center ;
+    }
+    .success .left-success h1{
+        margin: 0px ;
+        font-size: 21px  ;
+    }
+    .success .left-success p{
+        margin: 0px  ;
+        font-size: 10px ;
+    }
+    .success .right-success{
+        text-align: center ;
+    }
+    .success .right-success h1{
+        margin: 0px ;
+        font-size: 21px ;
+    }
+    .feature{
+        padding: 30px 0px ;
+    }
+    .inner-feature{
+        width: 67% ;
+        margin: 0px 10px 20px ;
+    }
+    .inner-feature img{
+        width: 100% ;
+        height: 120px ;
+    }
+    .inner-feature h1{
+        font-size: 14px ;
+    }
+    .inner-feature p{
+        font-size: 10px ;
+    }
+
+
+    /* css end */
+}
+
+
+/* 
+    #screen resulation :320px to 480px 
+    #devices: most of the smart phone
+*/
+@media (min-width: 320px) and (max-width: 480px){
+/* css start */
+    .container{
+        width: 95% ;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100% ;
+        float: left ;
+    }
+    .col-12{
+        width: 100% ;
+        float: left;
+    }
+    .col-4{
+        width: 100% ;
+        float: left ;
+    }
+    .header .logo{
+        width: 100% ;
+        text-align: center ;
+        display: block ;
+    }
+    .header .navbar{
+        text-align: left ;
+    }
+    .header .navbar li a{
+        font-size: 12px ;
+    }
+    .banner{
+        padding:30px 0px ;
+    }
+    .banner h1{
+        font-size: 26px ;
+    }
+    .banner p{
+        font-size: 12px  ;
+    }
+    .success{
+        padding: 30px 0px  ;
+    }
+    .success .left-success{
+        text-align: center ;
+    }
+    .success .left-success h1{
+        margin: 0px ;
+        font-size: 26px  ;
+    }
+    .success .left-success p{
+        margin: 0px  ;
+        font-size: 12px ;
+    }
+    .success .right-success{
+        text-align: center ;
+    }
+    .success .right-success h1{
+        margin: 0px ;
+        font-size: 26px ;
+    }
+    .feature{
+        padding: 30px 0px ;
+    }
+    .inner-feature{
+        margin: 0px 10px 20px ;
+    }
+
+
+/* css end */
+
+}
+/* 
+    #screen resulation :481px to 767px 
+    #devices: most of the high resulation mobiles and low resulation tab
+*/
+@media (min-width: 481px) and (max-width: 767px){
+    /* css start */
+    .container{
+        width: 95% ;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100% ;
+        float: left ;
+    }
+    .col-12{
+        width: 100% ;
+        float: left;
+    }
+    .col-4{
+        width: 100% ;
+        float: left ;
+    }
+    .header .logo{
+        width: 100% ;
+        text-align: center ;
+        display: block ;
+    }
+    .header .navbar{
+        text-align: center ;
+    }
+    .header .navbar li a{
+        font-size: 13px ;
+    }
+    .banner{
+        padding:40px 0px ;
+    }
+    .banner h1{
+        font-size: 28px ;
+    }
+    .banner p{
+        font-size: 13px  ;
+    }
+    .success{
+        padding: 40px 0px  ;
+    }
+    .success .left-success{
+        text-align: center ;
+    }
+    .success .left-success h1{
+        margin: 0px ;
+        font-size: 28px  ;
+    }
+    .success .left-success p{
+        margin: 0px  ;
+        font-size: 13px ;
+    }
+    .success .right-success{
+        text-align: center ;
+    }
+    .success .right-success h1{
+        margin: 0px ;
+        font-size: 28px ;
+    }
+    .feature{
+        padding: 40px 0px ;
+    }
+    .inner-feature{
+        width: 80% ;
+        margin: 0px 10px 20px ;
+    }
+
+    
+    
+    
+    /* css end */
+    
+}
+/* 
+    #screen resulation :481px to 767px 
+    #devices: most of the tab, mini notebook.
+*/
+@media (min-width: 768px) and (max-width: 1024px){
+    /* css start */
+    .container{
+        width: 95% ;
+    }
+    .row{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100% ;
+        float: left ;
+    }
+    .col-12{
+        width: 100% ;
+        float: left;
+    }
+    .col-4{
+        width: 100% ;
+        float: left ;
+    }
+    .header .logo{
+        width: 100% ;
+        text-align: center ;
+        display: block ;
+    }
+    .header .navbar{
+        text-align: center ;
+    }
+    .success .left-success{
+        text-align: center ;
+    }
+    .success .right-success{
+        text-align: center ;
+    }
+    .inner-feature{
+        margin: 0px 5px 20px ;
+        width: 90% ;
+    }
+    
+    
+    /* css end */
+    
+}
+
